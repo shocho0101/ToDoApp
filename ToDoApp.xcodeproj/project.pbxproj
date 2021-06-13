@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAB9E14926766A4D0005BD4A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9E14826766A4D0005BD4A /* AddViewController.swift */; };
+		CAB9E14B26766D830005BD4A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9E14A26766D830005BD4A /* ListTableViewController.swift */; };
+		CAB9E14D26766E380005BD4A /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9E14C26766E380005BD4A /* ToDoTableViewCell.swift */; };
+		CAB9E14F26766E650005BD4A /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9E14E26766E650005BD4A /* CheckBox.swift */; };
+		CAB9E15126766E780005BD4A /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB9E15026766E780005BD4A /* checked.png */; };
+		CAB9E15326766E7F0005BD4A /* unchekedbox.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB9E15226766E7F0005BD4A /* unchekedbox.png */; };
+		CAB9E1552676723F0005BD4A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB9E1542676723F0005BD4A /* DetailViewController.swift */; };
 		CAD955F3267668DE002F478C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD955F2267668DE002F478C /* AppDelegate.swift */; };
 		CAD955F5267668DE002F478C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD955F4267668DE002F478C /* SceneDelegate.swift */; };
 		CAD955F7267668DE002F478C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD955F6267668DE002F478C /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAB9E14826766A4D0005BD4A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CAB9E14A26766D830005BD4A /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		CAB9E14C26766E380005BD4A /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		CAB9E14E26766E650005BD4A /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CAB9E15026766E780005BD4A /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		CAB9E15226766E7F0005BD4A /* unchekedbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchekedbox.png; sourceTree = "<group>"; };
+		CAB9E1542676723F0005BD4A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CAD955EF267668DE002F478C /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD955F2267668DE002F478C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAD955F4267668DE002F478C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +70,8 @@
 		CAD955F1267668DE002F478C /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				CAB9E15026766E780005BD4A /* checked.png */,
+				CAB9E15226766E7F0005BD4A /* unchekedbox.png */,
 				CAD955F2267668DE002F478C /* AppDelegate.swift */,
 				CAD955F4267668DE002F478C /* SceneDelegate.swift */,
 				CAD955F6267668DE002F478C /* ViewController.swift */,
@@ -63,6 +79,11 @@
 				CAD955FB267668DF002F478C /* Assets.xcassets */,
 				CAD955FD267668DF002F478C /* LaunchScreen.storyboard */,
 				CAD95600267668DF002F478C /* Info.plist */,
+				CAB9E14826766A4D0005BD4A /* AddViewController.swift */,
+				CAB9E14A26766D830005BD4A /* ListTableViewController.swift */,
+				CAB9E14C26766E380005BD4A /* ToDoTableViewCell.swift */,
+				CAB9E14E26766E650005BD4A /* CheckBox.swift */,
+				CAB9E1542676723F0005BD4A /* DetailViewController.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -125,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAD955FF267668DF002F478C /* LaunchScreen.storyboard in Resources */,
+				CAB9E15126766E780005BD4A /* checked.png in Resources */,
 				CAD955FC267668DF002F478C /* Assets.xcassets in Resources */,
 				CAD955FA267668DE002F478C /* Main.storyboard in Resources */,
+				CAB9E15326766E7F0005BD4A /* unchekedbox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +162,12 @@
 			files = (
 				CAD955F7267668DE002F478C /* ViewController.swift in Sources */,
 				CAD955F3267668DE002F478C /* AppDelegate.swift in Sources */,
+				CAB9E14926766A4D0005BD4A /* AddViewController.swift in Sources */,
+				CAB9E14F26766E650005BD4A /* CheckBox.swift in Sources */,
+				CAB9E14D26766E380005BD4A /* ToDoTableViewCell.swift in Sources */,
+				CAB9E14B26766D830005BD4A /* ListTableViewController.swift in Sources */,
 				CAD955F5267668DE002F478C /* SceneDelegate.swift in Sources */,
+				CAB9E1552676723F0005BD4A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
